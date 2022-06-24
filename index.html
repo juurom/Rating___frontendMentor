@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<link rel="stylesheet" href="style.css">
+
+<style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Rating state start -->
+<div class="card">
+  <div class="touricon">
+    🛬
+  </div>
+  <div class="title">
+  투어 경험은 어떠셨나요?
+  </div>
+<div class="explain">
+  이번 여행 경험에 대한 피드백을 남겨 주세요.
+  정성스레 남겨 주신 모든 피드백은 더 나은 투어 프로그램 개발에 큰 도움이 된답니다!😎✨
+</div>
+
+<div id="ratings">
+  <button class="num off" id="1">1</button>
+  <button class="num off" id="2">2</button>
+  <button class="num off" id="3">3</button>
+  <button class="num off" id="4">4</button>
+  <button class="num off" id="5">5</button>
+  </div>
+
+  <button class="submit">제출</button>
+</div>
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+<div class="card hidden">  <!-- class="card" class="hidden" 아님! -->
+  <div class="thankyouicon">
+    <img src="illustration-thank-you.svg" />
+  </div>
+  <div class="ratingshow">
+  5점 중 <span class="userrate"></span>점을 주셨네요!
+  </div>
+  <div class="title">
+    소중한 의견 감사합니다!
+  </div>
+  <div class="explain">
+    나누어주신 의견은 더 나은 서비스를 만들기 위해 적극적으로 반영할게요.
+  </div>
+</div>
+  <!-- Thank you state end -->
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/juurom">Juurom</a>.
+  </div>
+</body>
+</html>
+
+<!--jQuery 사용-->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="clickevent.js"></script>
