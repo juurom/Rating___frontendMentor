@@ -33,7 +33,7 @@
 ### 링크
 
 - Solution URL: [Github](https://github.com/juurom/Rating___frontendMentor)
-- Live Site URL: [Live Site](이후추가)
+- Live Site URL: [Live Site](https://juurom.github.io/Rating___frontendMentor/)
 
 ## 배운-점
 
@@ -135,8 +135,6 @@ $(".num").click(function(){
 
 - [button click 참고 사이트](https://orange056.tistory.com/29) - $()라는 제이쿼리 문법을 처음으로 알게 해 준 사이트. 많이 참고했다.
 - [js로 html 문서 안의 텍스트 바꾸기](https://youngjinmo.github.io/2020/04/change-value-by-javascript/) - span 태그를 만들어서 class를 지정한 뒤, $(class).text(inputtext)로 입력하면 된다.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## 제작자
 
